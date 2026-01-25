@@ -120,3 +120,8 @@ body {
 .bar-bg {
 	margin-bottom: 5px;
 }
+.entry:not(:last-child):not(.no-border) {
+    border-bottom: 0.5px solid #B0C4DE;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
